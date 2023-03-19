@@ -1,0 +1,121 @@
+footer {
+    max-width: 1272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 49px;
+
+    .footer_cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 77px;
+    }
+
+    .footer_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 71px;
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+        }
+
+        .logo_services_lic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            column-gap: 107px;
+
+            .logo_services {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                column-gap: 81px;
+
+                .logo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    column-gap: 100.01px;
+                }
+
+                .services {
+                    display: flex;
+                    justify-content: center;
+                    column-gap: 104px;
+                }
+            }
+
+            .lic {
+                display: flex;
+                justify-content: center;
+                column-gap: 69px;
+            }
+        }
+
+
+        .footer_social {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            row-gap: 49px;
+
+            .social {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                row-gap: 39px;
+            }
+
+            .footer_media {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 20px;
+
+                img {
+                    cursor: pointer;
+                }
+            }
+
+            .footer_button {
+                background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+                border-radius: 40px;
+                width: 214px;
+                height: 48px;
+            }
+        }
+    }
+
+    .img {
+        max-width: 1269px;
+    }
+
+    h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.13em;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    .vec1 {
+        position: absolute;
+        bottom: 168.01px;
+        right: 0.5px;
+    }
+    .vec2 {
+        position: absolute;
+        bottom: 348px;
+        right: 0.5px;
+    }
+}

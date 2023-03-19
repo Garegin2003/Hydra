@@ -1,0 +1,63 @@
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1272px;
+    margin-bottom: 112px;
+    .vec {
+        position: absolute;
+        bottom: 1720px;
+        left: -65px;
+    }
+    .step {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: transparent;
+        z-index: 3;
+        .shape {
+            width: 62px;
+            height: 62px;
+            border-radius: 50%;
+            display: flex;
+            border: 15px rgb(14, 14, 14) solid;
+            background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+        .step_id {
+            width: 159px;
+            height: 159px;
+            background: linear-gradient(251.27deg, #C0B7E8 12.87%, #8176AF 89.33%);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 20px rgb(13 13 13 / 85%) solid;
+            h2 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 78px;
+                color: #343045;
+                background: transparent;
+            }
+        }
+
+        .step_title {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 820px) {
+    .items {
+        flex-wrap: wrap;
+
+        .item {
+            width: 355px;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .items {
+        margin: 0 auto;
+        position: relative !important;
+        margin-bottom: 56px;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        height: 511px;
+        .item {
+            width: 300px;
+            position: absolute;
+        }
+
+        .z0 {
+            opacity: 1;
+        }
+        .shape1 {
+            display: flex;
+            position: absolute;
+            right: 265px;
+        }
+        .shape2 {
+            display: flex;
+            position: absolute;
+            left: 265px;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.tech {
+  background-image: url("../../img/pexels.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1278px;
+  height: 303px;
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 49px;
+  z-index: 3;
+}
+.tech .vec {
+  position: absolute;
+  bottom: 2596px;
+  right: 1px;
+  z-index: 2;
+}
+.tech h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  background: transparent;
+}
+.tech h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.tech .chev_relative {
+  position: relative;
+}
+.tech .chev_relative .chev {
+  background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF 98.31%);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  border: 15px rgb(14, 14, 14) solid;
+  position: absolute;
+  bottom: -145px;
+  cursor: pointer;
+}
+.tech .chev_relative .chev a {
+  display: flex;
+}/*# sourceMappingURL=Technologies.css.map */

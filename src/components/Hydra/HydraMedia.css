@@ -1,0 +1,24 @@
+@media screen and (max-width: 390px) {
+  .hydra {
+    margin: 0 auto;
+    margin-bottom: 56px;
+  }
+  .hydra .build_hydra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hydra .build_hydra h2 {
+    font-size: 26px;
+  }
+  .hydra .build_hydra .hydra h3 {
+    font-size: 26px;
+  }
+  .hydra .build_hydra .hydra img {
+    display: none;
+  }
+  .hydra p {
+    display: none;
+  }
+}/*# sourceMappingURL=HydraMedia.css.map */

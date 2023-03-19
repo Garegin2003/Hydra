@@ -1,0 +1,59 @@
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1272px;
+    margin-bottom: 123px;
+
+    div {
+        opacity: 0.36;
+    }
+
+    .unreal {
+        background-image: url('../../img/Hydra-Tech1.png');
+        width: 174px;
+        height: 174px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .unity {
+        background-image: url('../../img/Hydra-Tech3.png');
+        width: 252px;
+        height: 252px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .oculus {
+        background-image: url('../../img/Hydra-Tech2.png');
+        width: 263px;
+        height: 263px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .vive {
+        background-image: url('../../img/Hydra-Tech4.png');
+        width: 282px;
+        height: 282px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .shap {
+        width: 62px;
+        height: 62px;
+        border-radius: 50%;
+        display: flex;
+        border: 15px rgb(14, 14, 14) solid;
+        background: linear-gradient(267.61deg, #C0B7E8 -0.6%, #8176AF);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+}

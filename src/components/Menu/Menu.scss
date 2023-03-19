@@ -1,0 +1,70 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1272px;
+    margin-bottom: 67px;
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .logo1 {
+            max-width: 253px;
+            height: 103px;
+        }
+        .logo2 {
+            max-width: 253px;
+            height: 46px;
+        }
+    }
+    .menu_items{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        max-width: 332px;
+    }
+    .menu_link{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        max-width: 348px;
+        .logo_contact {
+            background: transparent;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #FFFFFF;
+            width: 155px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo_join {
+            background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            border-radius: 40px;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #343045;
+            width: 155px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .menu {
+        display: none;
+
+    }
+}

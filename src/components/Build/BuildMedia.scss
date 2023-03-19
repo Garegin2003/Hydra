@@ -1,0 +1,23 @@
+@media screen and (max-width: 820px) {
+    .build {
+        column-gap: 78px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .build   {
+        flex-direction: column;
+        margin-bottom: 26px;
+        .build_hydra {
+            align-items: center;
+            .hydra {
+                img {
+                    display: none;
+                }
+            }
+        }
+        p {
+            display: none;
+        }
+    }
+}

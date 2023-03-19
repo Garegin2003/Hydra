@@ -1,0 +1,40 @@
+@media screen and (max-width: 820px) {
+  .companies {
+    max-width: 820px;
+    flex-wrap: wrap !important;
+  }
+  .companies .div {
+    width: 50px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .companies {
+    position: relative;
+    margin: 0 auto;
+    width: 370px;
+    justify-content: center;
+    -moz-column-gap: 245px;
+         column-gap: 245px;
+    margin-bottom: 71px;
+  }
+  .companies .unreal {
+    position: absolute;
+    opacity: 0;
+  }
+  .companies .unity {
+    position: absolute;
+    opacity: 0;
+  }
+  .companies .oculus {
+    position: absolute;
+    opacity: 0;
+  }
+  .companies .vive {
+    position: absolute;
+    margin: 0 auto;
+    opacity: 1;
+  }
+  .companies .shap {
+    display: flex;
+  }
+}/*# sourceMappingURL=CompaniesMedia.css.map */

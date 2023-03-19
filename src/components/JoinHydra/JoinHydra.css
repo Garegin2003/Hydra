@@ -1,0 +1,124 @@
+.joinhydra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1275px;
+  background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  margin-bottom: 127px;
+}
+.joinhydra form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 51px;
+}
+.joinhydra form .butn {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  width: 214px;
+  height: 48px;
+  cursor: pointer;
+}
+.joinhydra .joinhydra_content {
+  margin: 90px 107px 84px 106px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 65px;
+}
+.joinhydra .joinhydra_build {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  -moz-column-gap: 21px;
+       column-gap: 21px;
+}
+.joinhydra .joinhydra_build .joinhydra_line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+.joinhydra .joinhydra_build .joinhydra_line h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.joinhydra .joinhydra_build .joinhydra_line .line {
+  width: 414px;
+  background: transparent;
+}
+.joinhydra .joinhydra_build h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  background: transparent;
+}
+.joinhydra .joinhydra_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  row-gap: 33px;
+  width: 1275px;
+}
+.joinhydra .joinhydra_input .name {
+  width: 1058px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 4px;
+  background: transparent;
+}
+.joinhydra .joinhydra_input .name input {
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  width: 524px;
+  height: 72px;
+  background: transparent;
+  padding-left: 20px;
+}
+.joinhydra .joinhydra_input .sub {
+  width: 1058px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.joinhydra .joinhydra_input .sub input {
+  height: 72px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  background: transparent;
+  padding-left: 20px;
+}
+.joinhydra .joinhydra_input .tell {
+  width: 1058px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+.joinhydra .joinhydra_input .tell input {
+  height: 210px;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  background: transparent;
+  padding-left: 20px;
+}/*# sourceMappingURL=JoinHydra.css.map */

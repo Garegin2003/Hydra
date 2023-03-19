@@ -1,0 +1,17 @@
+@media screen and (max-width: 390px) {
+    .introduction   {
+        flex-direction: column;
+        margin-bottom: 38px;
+        .intro_hydra {
+            align-items: center;
+            .hydra {
+                img {
+                    display: none;
+                }
+            }
+        }
+        p {
+            display: none;
+        }
+    }
+}

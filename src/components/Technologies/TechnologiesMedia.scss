@@ -1,0 +1,33 @@
+@media screen and (max-width: 820px) {
+    .tech {
+        max-width: 820px;
+        height: 200px;
+
+        .chev {
+            bottom: -90px !important;
+            width: 60px !important;
+            height: 60px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .tech {
+        width: 340px;
+        height: 163.35px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        .vec {
+            display: none;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        h4 {
+            font-size: 24px;
+        }
+        .chev {
+            display: none !important;
+        }
+    }
+}

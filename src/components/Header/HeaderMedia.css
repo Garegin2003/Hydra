@@ -1,0 +1,98 @@
+@media screen and (max-width: 820px) {
+  header {
+    max-width: 820px;
+    margin-bottom: 53px;
+  }
+  header .vec1 {
+    position: absolute;
+    right: -26px;
+    top: 71px;
+    height: 452px;
+  }
+  header .vec2 {
+    top: -67px;
+    position: absolute;
+  }
+  header .vec3 {
+    position: absolute;
+    right: 2.5px;
+    top: 238.18px;
+  }
+  .header_content h3 {
+    font-size: 30px !important;
+  }
+  .header_content p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px !important;
+    line-height: 20px;
+    color: #FFFFFF;
+    z-index: 3;
+  }
+  .div .img {
+    width: 400px;
+  }
+  .header_link .header_button {
+    width: 100px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  header {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 auto;
+    max-width: 390px;
+  }
+  header .vec1 {
+    position: absolute;
+    right: 11px !important;
+    top: 71px !important;
+    height: 452px !important;
+  }
+  header .vec2 {
+    height: 573px;
+    top: -45px !important;
+    right: 125px !important;
+  }
+  header .vec3 {
+    right: 2.5px !important;
+    top: 238.18px !important;
+  }
+  header .div .img {
+    width: 318.67px !important;
+    height: 277.04px !important;
+  }
+  header .header_content img {
+    display: none;
+  }
+  header .header_content p {
+    display: none;
+  }
+  header .header_content h3 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    z-index: 3;
+  }
+  header .header_content h3 span {
+    background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: #C0B7E8;
+    z-index: 3;
+  }
+  header .header_link {
+    justify-content: center;
+  }
+  header .header_link .header_button {
+    width: 292px !important;
+    height: 52px !important;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+    border-radius: 40px;
+  }
+}/*# sourceMappingURL=HeaderMedia.css.map */

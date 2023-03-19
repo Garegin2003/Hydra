@@ -1,0 +1,62 @@
+@media screen and (max-width: 820px) {
+  .steps {
+    max-width: 820px !important;
+  }
+  .steps .vec {
+    width: 880px !important;
+    height: 81px !important;
+    bottom: 1405px;
+  }
+  .steps .step_id {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .steps .step_id h2 {
+    font-size: 38px !important;
+  }
+  .steps .step_title .arrow {
+    width: 50px;
+    height: 50px;
+  }
+  .steps .step_title p {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 190px;
+  }
+  .steps .vec {
+    display: none;
+  }
+  .steps .step {
+    position: absolute;
+    opacity: 0;
+  }
+  .steps .step p {
+    text-align: center;
+    font-size: 24px;
+  }
+  .steps .step .step_id {
+    width: 159px !important;
+    height: 159px !important;
+  }
+  .steps .step .step_title {
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+  }
+  .steps .step .shape {
+    display: flex;
+  }
+  .steps .step .arrow {
+    display: none;
+  }
+  .steps .z01 {
+    opacity: 1;
+  }
+}/*# sourceMappingURL=StepsMedia.css.map */

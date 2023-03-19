@@ -1,0 +1,69 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1272px;
+  margin-bottom: 67px;
+}
+.menu .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.menu .logo .logo1 {
+  max-width: 253px;
+  height: 103px;
+}
+.menu .logo .logo2 {
+  max-width: 253px;
+  height: 46px;
+}
+.menu .menu_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  max-width: 332px;
+}
+.menu .menu_link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  max-width: 348px;
+}
+.menu .menu_link .logo_contact {
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  width: 155px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu_link .logo_join {
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  border-radius: 40px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  width: 155px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .menu {
+  display: none;
+}/*# sourceMappingURL=Menu.css.map */

@@ -1,0 +1,46 @@
+.contact_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  width: 441.5px;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+}
+.contact_item img {
+  width: 70px;
+  height: 70px;
+}
+.contact_item .contact_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact_item .contact_info .contact1 {
+  color: #FFFFFF;
+}
+.contact_item .contact_info h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+}
+.contact_item .contact_info p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+.contact_item .shape {
+  display: none;
+}
+.contact_item .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -moz-column-gap: 31px;
+       column-gap: 31px;
+}/*# sourceMappingURL=ContactItem.css.map */

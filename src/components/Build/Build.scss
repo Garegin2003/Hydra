@@ -1,0 +1,36 @@
+.build {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    color: #FFFFFF;
+    margin-bottom: 107.33px;
+    .build_hydra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 1700px;
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+        }
+
+        .hydra {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+
+            h3 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 36px;
+                line-height: 44px;
+            }
+        }
+    }
+}
